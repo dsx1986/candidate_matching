@@ -123,9 +123,14 @@ Interactive API documentation available at:
 ├── schemas.py      # Pydantic request/response schemas
 ├── crud.py         # Database CRUD operations
 ├── matching.py     # TF-IDF matching logic
+├── docs/           # Developer documentation
 ├── requirements.txt
 └── README.md
 ```
+
+## Learning the Codebase
+
+- Codebase learning guide: `docs/CODEBASE_LEARNING.md`
 
 ## Docker
 
@@ -153,4 +158,3 @@ docker-compose up --build
 - **Database**: SQLite with SQLAlchemy ORM
 - **ML**: scikit-learn (TF-IDF, cosine similarity)
 - **Validation**: Pydantic
-
